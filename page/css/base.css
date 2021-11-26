@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'MyIcon';
+    src: url('../font/glyphicons-halflings-regular.woff2');
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: #191818;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.title {
+    display: block;
+    float: left;
+    color: #eee;
+    line-height: 50px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.menu {
+    float: left;
+}
+
+.menu>li {
+    display: inline;
+    float: left;
+    height: 50px;
+    width: 58px;
+    color: #eee;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search_bar>input {
+    display: inline-block;
+    position: absolute;
+    height: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    font-size: 14px;
+    top: 50%;
+    margin-top: -18px;
+    right: 60px;
+}
+
+.search_bar>button {
+    display: inline-block;
+    position: absolute;
+    width: 54px;
+    height: 34px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 50%;
+    margin-top: -18px;
+    outline: none;
+    color: #555;
+    right: 0px;
+    background: #fff;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    width: 1170px;
+    margin: 30px auto 0px auto;
+}
+
+.content_left {
+    float: left;
+    width: 66%;
+    padding: 0px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+.content_right {
+    float: right;
+    width: 34%;
+    padding: 0px 0px 0px 0px;
+}
+
+.right_module {
+    display: inline-block;
+    width: 100%;
+    background: #1f1f1f;
+    color: #fff;
+    border-radius: 4px;
+    text-align: left;
+    padding: 0px 15px 25px 15px;
+    margin-bottom: 20px;
+}
+
+.right_module>div {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    padding: 15px 5px 15px 0;
+    color: dodgerblue;
+}
+
+.right_module>a {
+    display: inline-block;
+    font-size: 14px;
+    color: dodgerblue;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.right_module>ul>li {
+    list-style: none;
+    color: #fff;
+    padding: 15px 15px;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #292929;
+}
+
+.right_module>ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.right_module>ul>li>a:hover {
+    color: #337ab7;
+}
+
+.right_module>ul>li>div {
+    padding: 5px 0;
+}
+
+.right_module>ul>li>div>span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.right_module>ul>li>p {
+    font-size: 14px;
+    color: #777;
+}
+
+.pull_right {
+    position: absolute;
+    right: 15px;
+}
+
+.right_module>span {
+    display: inline-block;
+    width: 49%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.right_module>span>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #191818;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer>ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer>ul>li {
+    display: block;
+    color: #a2a2a2;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer>p {
+    margin-top: 10px;
+    color: #a2a2a2;
+}
+
+.page_tool {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.page_tool>ul>li {
+    display: block;
+    list-style: none;
+    width: 40px;
+    height: 30px;
+    background: #fff;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    float: left;
+    cursor: pointer;
+}
+
+.page_tool>ul>li:hover {
+    background: #eee;
+}
+
+.now_page {
+    background: #333 !important;
+    color: #fff !important;
+}

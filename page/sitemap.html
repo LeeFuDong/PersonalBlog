@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="./css/sitemap.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.9/vue.min.js"></script>
+    <script src="./js/axios.js"></script>
+</head>
+
+<body>
+    <div class="title">Lee博客's SiteMap</div>
+    <div class="link"><a href="index.html"><b>博客首页</b></a>>>站点地图</div>
+    <div class="blog_list" id="blog_list">
+        <span>最新文章</span>
+        <ul>
+            <li v-for="blog in blogList"><a :href="blog.link">{{blog.title}}</a></li>
+        </ul>
+    </div>
+    <script src="./js/sitemap.js"></script>
+</body>
+
+</html>
